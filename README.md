@@ -1,4 +1,3 @@
-# r2
 Introduction of Z6
 
 What is Z6?

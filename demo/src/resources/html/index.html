@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <link href="./resources/css/b.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="%2F%23bean7%2Fx%2Fresources%2Fjs%2Fsimple%2Fa"></script>
+    <script type="text/javascript" src="./resources/js/b.js"></script>
+    <title>Demo</title>
+</head>
+
+<body>
+
+<div id="strut">
+    <table width="100%" border=1px>
+        <tr>
+            <td width="15%">
+            <div id="west">
+                <h1>订单</h1>
+                <ul>
+                    <li><a href="javascript:showInMain('/#bean','center')">添加</a></li>
+                    <li><a href="javascript:showInMain('/#bean/[0,10]','listPanel')">管理</a></li>
+                </ul>
+            </ul>
+            </div>
+            </td>
+            <td width="85%"><div id="msg" align="center"></div>
+                <div id="center" align="center"></div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <div id="listPanel" align="center"></div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div id="south"  align="center">
+    <table>
+        <tr><td><a href="http://www.iwzzd.com">Access Community</a></td></tr>
+    </table>
+</div>
+
+<div id="floatDiv1"  style="background-color:silver;width:450;height:400;overflow:scroll;display:none;border:solid;border-width:2;border-color:#782d32;" align="center" ondblclick="hiddenFloat()">
+    <div id="divHeader" style="height:25;background-color:skyblue;" align="right"><input id="toolButton" value="展开" type="button" onclick="resize('x')"></div>
+    <div id="floatDiv2" ></div>
+</div>
+
+</body>
+</html>

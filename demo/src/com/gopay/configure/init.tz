@@ -1,0 +1,4 @@
+expiredCFG=6
+locale=zh
+characterNumInline=30
+resources=init.tz,name_en.properties,name_zh.properties

@@ -1,8 +1,8 @@
-Introduction of Z6
+Introduction
 
 What is Z6?
 
-    It's a framework for web application development.
+    It's an efficient framework for web application development.
 
 Which features the Z6 framework has?
 

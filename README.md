@@ -10,7 +10,7 @@ Which features the Z6 framework has?
 
     1、Easy,Tiny,Sensitive;
 
-    2、REST style;
+    2、Name mapping;
 
     3、Writing with java，no SSH , no complex configurations；
 
